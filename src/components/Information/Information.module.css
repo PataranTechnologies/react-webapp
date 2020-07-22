@@ -1,0 +1,76 @@
+.infoSection{
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.infoSection h2{
+    text-align: center;
+    margin: 2rem 0 4rem 0;
+}
+
+.sectionOne{
+    width: 80%;
+    height: 25rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionOne h2, .sectionOne p{
+    margin: 0 2.5rem;
+}
+
+.sectionOne p{
+    width: 45%;
+    line-height: 2rem;
+}
+
+.sectionOne img{
+    height: 80%;
+    vertical-align: middle;
+    border: 10px solid #dadada;
+}
+
+.sectionTwo{
+    width: 90%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.knowMoreSection{
+    width: 25%;
+}
+
+.knowMoreSection h3{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.knowMoreSection p{
+    text-align: justify;
+    line-height: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.knowMoreSection a{
+    padding: .75rem 1rem;
+    background-color: #65e465;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 2px solid #65e465;
+    outline: none;
+    text-align: center;
+    display: block;
+    margin: 1rem 5rem;
+    transition: all .4s ease;
+}
+
+.knowMoreSection a:hover{
+    background-color: transparent;
+    color: #65e465;
+}
