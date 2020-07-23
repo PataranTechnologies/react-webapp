@@ -1,0 +1,49 @@
+h2{
+    text-align: center;
+    margin: 3rem 0 4rem 0;
+}
+
+.processSection{
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.step{
+    width: 75%;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.step:nth-of-type(even){
+    flex-direction: row-reverse;
+}
+
+.stepNumber{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    border: 3px solid #888888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9rem;
+}
+
+.stepInfo{
+    width: 60%;
+}
+
+.stepInfo h3{
+    margin: 1rem 0;
+}
+
+.stepInfo p{
+    margin: 1.5rem 0;
+    color: #262626;
+    line-height: 1.4rem;
+}

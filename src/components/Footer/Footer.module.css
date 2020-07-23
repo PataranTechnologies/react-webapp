@@ -1,0 +1,61 @@
+.mainFooter{
+    width: 100%;
+    padding: 3rem 1rem;
+    background: #2a2a2a;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionOne{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about{
+    width: 70%;
+}
+
+.about p{
+    line-height: 1.4rem;
+}
+
+h3{
+    color: #b8b7b7;
+    margin-bottom: 1rem;
+}
+
+p, a{
+    color: #797878;
+}
+
+a:hover{
+    color: #b8b7b7;
+}
+
+.navLinks ul li{
+    margin-bottom: .5rem;
+}
+
+.sectionTwo{
+    width: 35%;
+}
+
+.sectionTwo p{
+    margin-bottom: 2rem;
+}
+
+.secondFooter{
+    width: 100%;
+    padding: 1rem 2rem;
+    background-color: #212020;
+}
+
+.secondFooter p{
+    color: #b8b7b7;
+}
+
+.secondFooter a{
+    color: #fff;
+}
+
