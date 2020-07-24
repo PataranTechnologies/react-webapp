@@ -1,11 +1,11 @@
 import React from 'react';
 import { Route, Switch, Redirect } from "react-router-dom";
 
-import Homepage from "./pages/Homepage/Homepage";
-import About from "./pages/About/About";
-import Services from "./pages/Services/Services";
-import Blog from "./pages/Blog/Blog";
-import Contact from "./pages/Contact/Contact";
+import Homepage from "./routes/Homepage/Homepage";
+import About from "./routes/About/About";
+import Services from "./routes/Services/Services";
+import Blog from "./routes/Blog/Blog";
+import Contact from "./routes/Contact/Contact";
 
 
 function App() {
