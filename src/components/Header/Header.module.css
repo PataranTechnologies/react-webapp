@@ -5,6 +5,7 @@
     left: 0;
     z-index: 5;
     background-color: #fcfcfc;
+    box-shadow: 0 4px 4px #b4aeae;
 }
 
 .mainNav{
@@ -23,7 +24,7 @@
     margin-top: 1.1rem;
     font-size: 3.5rem;
     font-weight: 700;
-    color: #65e465;
+    color: var(--primary-green-color);
 }
 
 .navLinks{
@@ -47,7 +48,7 @@
 }
 
 .navLink a:hover{
-    border-bottom: 5px solid #65e465;
+    border-bottom: 5px solid var(--primary-green-color);
 }
 
 .socialLinks{
@@ -64,5 +65,5 @@
 }
 
 .socialLink a{
-    color: #3ebb3e;
+    color: var(--primary-green-color);
 }

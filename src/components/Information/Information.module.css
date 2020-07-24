@@ -58,11 +58,11 @@
 
 .knowMoreSection a{
     padding: .75rem 1rem;
-    background-color: #65e465;
+    background-color: var(--primary-green-color);
     color: white;
     text-transform: uppercase;
     letter-spacing: 1px;
-    border: 2px solid #65e465;
+    border: 2px solid var(--primary-green-color);
     outline: none;
     text-align: center;
     display: block;
@@ -72,5 +72,5 @@
 
 .knowMoreSection a:hover{
     background-color: transparent;
-    color: #65e465;
+    color: var(--primary-green-color);
 }
