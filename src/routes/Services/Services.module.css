@@ -1,0 +1,251 @@
+.servicesSection{
+    width: 100%;
+}
+
+.introToServices{
+    width: 100%;
+    height: 75vh;
+    background-image: url("https://softuvo.com/wp-content/uploads/2015/12/services_banner.jpg?id=6252");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.introTextOne{
+    margin: 0 0 2rem 7rem;
+    padding-top: 7rem;
+}
+
+.introTextTwo{
+    margin-left: 7rem;
+    font-weight: 400;
+}
+
+.servicesGrid{
+    display: grid;
+    width: 100%;
+    place-items: center;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "container1 parent container2"
+                         "container3 image container4"
+                         "container5 image container6";
+    padding: 7.5rem;
+    row-gap: 2.5rem;
+    background-color: #e4e4e4;
+}
+
+.serviceContainer:nth-of-type(1){
+    grid-area: container1;
+}
+
+.serviceContainer:nth-of-type(2){
+    grid-area: container2;
+}
+
+.serviceContainer:nth-of-type(3){
+    grid-area: container3;
+}
+
+.serviceContainer:nth-of-type(4){
+    grid-area: container4;
+}
+
+.serviceContainer:nth-of-type(5){
+    grid-area: container5;
+}
+
+.serviceContainer:nth-of-type(6){
+    grid-area: container6;
+}
+
+.servicesParentContainer{
+    grid-area: parent;
+    width: 90%;
+    margin: 1rem auto;
+    align-self: start;
+}
+
+.servicesMainImage{
+    grid-area: image;
+    align-self: start;
+    width: 80%;
+    justify-self: center;
+}
+
+.serviceContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    align-self: start;
+}
+
+.serviceLogo{
+    width: 25%;
+    color: var(--primary-green-color);
+    text-align: right;
+}
+
+
+.serviceInfo{
+    width: 70%;
+}
+
+.serviceHeading{
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.serviceDesc{
+    line-height: 1.4rem;
+    margin-bottom: .5rem;
+}
+
+.readMoreBtn{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: var(--primary-green-color);
+    font-weight: 700;
+    margin: .5rem 0;
+}
+
+.servicesParentHeading{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.filler{
+    width: 30%;
+    height: 3px;
+    margin: .75rem auto;
+    margin-bottom: 1.25rem;
+    background-color: #bbbbbb;
+    position: relative;
+}
+
+.filler::before{
+    content: '';
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    left: -13px;
+    top: -5px;
+    background-color: #e4e4e4;
+    border: 3px solid #bbbbbb;
+}
+
+.servicesParentBody{
+    text-align: center;
+    line-height: 1.4rem;
+    margin-top: 3rem;
+}
+
+.servicesMainImage img{
+    width: 100%;
+}
+
+.moreInfoSection{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 5rem auto 3rem auto;
+}
+
+.moreInfoHeading{
+    width: 25%;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+
+.moreInfoHeading::after{
+    content: '';
+    width: 4rem;
+    display: block;
+    margin-top: .75rem;
+    height: 5px;
+    border-radius: 3px;
+    background: #466dee;
+}
+
+.moreInfoBody{
+    width: 70%;
+}
+
+.moreInfoBody h3{
+    margin-bottom: .4rem;
+}
+
+.moreInfoBody p{
+    margin-bottom: 1.5rem;
+}
+
+.moreInfoBody h3:first-of-type::before{
+    content: '';
+    width: 4rem;
+    display: block;
+    margin-bottom: .75rem;
+    height: 5px;
+    border-radius: 3px;
+    background: #466dee;
+}
+
+.partnershipSection{
+    width: 100%;
+    height: 10rem;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--primary-green-color);
+}
+
+.partnershipSection div{
+    margin-left: 3rem;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.75rem;
+    letter-spacing: 2px;
+}
+
+.partnershipSection a{
+    margin-right: 3rem;
+    display: block;
+    padding: .75rem 1.25rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    border: 2px solid white;
+    font-weight: 700;
+    transition: all .4s ease;
+}
+
+.partnershipSection a:hover{
+    background-color: white;
+    color: var(--primary-green-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

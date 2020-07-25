@@ -4,7 +4,7 @@ import styles from "./Process.module.css";
 const Process = () => {
   return (
     <>
-      <h2>Our Process</h2>
+      <h2 className={styles.processHeading}>Our Process</h2>
       <div className={styles.processSection}>
         <div className={styles.step}>
           <div className={styles.stepNumber}>1</div>
