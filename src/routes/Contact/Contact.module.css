@@ -1,0 +1,190 @@
+.contactSection{
+    width: 100%;
+}
+
+.contactHeader{
+    width: 100%;
+    height: 80vh;
+    background-image: url("https://softuvo.com/wp-content/uploads/2016/12/Banner4-1.jpg?id=6115");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contactHeader h1{
+    padding: 7rem 0 2rem 5rem;
+    width: 60%;
+}
+
+.contactHeader h2{
+    padding-left: 5rem;
+    width: 60%;
+    font-weight: 500;
+}
+
+.contactFormSection{
+    width: 80%;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactForm{
+    width: 55%;
+}
+
+.bigFiller{
+    width: 60%;
+    height: 3px;
+    margin: .75rem auto;
+    margin-bottom: 2rem;
+    background-color: #eeeeee;
+    position: relative;
+}
+
+.contactForm p{
+    line-height: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.contactForm h3{
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+}
+
+.addressInfo{
+    width: 40%;
+    background-color: #f1f0f0;
+    text-align: center;
+}
+
+.contactForm h2, .addressInfo h2{
+    font-weight: 500;
+    font-size: 1.7rem;
+    margin: 2rem auto;
+    color: var(--primary-green-color);
+}
+
+.filler{
+    width: 40%;
+    height: 3px;
+    margin: .75rem auto;
+    margin-bottom: 1.25rem;
+    background-color: #dddddd;
+    position: relative;
+}
+
+.filler::before, .bigFiller::before{
+    content: '';
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    left: -13px;
+    top: -5px;
+    background-color: #f1f0f0;
+    border: 3px solid #dddddd;
+}
+
+.bigFiller::before{
+    background-color: #fcfcfc;
+    border: 3px solid #eeeeee;
+}
+
+.socialLinks{
+    width: 90%;
+    margin: 0 auto 3rem auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #060625;
+}
+
+.addressInfo h4, .addressInfo p{
+    text-align: left;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.addressInfo h4{
+    margin-top: 3rem;
+}
+
+.addressInfo p a{
+    color: var(--primary-green-color);
+}
+
+.form{
+    width: 100%;
+}
+
+.inputs{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputBox{
+    display: inline-block;
+    width: 48%;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    border: 1px solid #dadada;
+    border-radius: 3px;
+    outline: none;
+}
+
+.inputBox::placeholder{
+    font-size: 1.1rem;
+}
+
+.textAreaInput{
+    display: block;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 5rem;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #dadada;
+    margin-bottom: 1rem;
+}
+
+.textAreaInput::placeholder{
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.submitBtn{
+    width: 100%;
+    background-color: var(--primary-green-color);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: .75rem 1rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.form::after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: var(--primary-green-color);
+    margin-top: 1rem;
+}
+
+.mapArea{
+    width: 100%;
+    height: 35rem;
+}
+
+.mapArea img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

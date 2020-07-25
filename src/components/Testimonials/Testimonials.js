@@ -63,7 +63,7 @@ const Testimonials = () => {
 
   return (
     <>
-    <h2>Testimonials</h2>
+    <h2 className={styles.testimonialsHeading}>Testimonials</h2>
     <div className={styles.testimonials}>
       <div className={styles.allTestimonies} style={{width: `${getWidth() * testimonies.length}px`, transform: `translateX(-${state.translate}px)`}}>
           {testimonies.map((testimony, index) => {

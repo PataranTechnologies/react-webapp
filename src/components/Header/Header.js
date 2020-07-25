@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 import InstagramIcon from "@material-ui/icons/Instagram";
 import PinterestIcon from "@material-ui/icons/Pinterest";
@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <header className={styles.mainHeader}>
       <nav className={styles.mainNav}>
-        <div className={styles.logo}>Softuvo</div>
+        <Link className={styles.logo} to="/">Softuvo</Link>
         <ul className={styles.navLinks}>
           <li className={styles.navLink}>
             <NavLink to="/home">Home</NavLink>
