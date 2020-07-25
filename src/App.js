@@ -6,10 +6,13 @@ import About from "./routes/About/About";
 import Services from "./routes/Services/Services";
 import Blog from "./routes/Blog/Blog";
 import Contact from "./routes/Contact/Contact";
-
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
+    <>
+    <Header/>
     <Switch>
       <Route path="/" exact>
         <Homepage/>
@@ -28,6 +31,8 @@ function App() {
       </Route>
       <Redirect to="/"/>
     </Switch>
+    <Footer/>
+    </>
   );
 }
 
