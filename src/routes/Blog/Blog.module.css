@@ -1,0 +1,213 @@
+.blogContainer{
+    width: 100%;
+}
+
+.blogGrid{
+    width: 80%;
+    margin: 5rem auto 2rem auto;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-areas: "posts side";
+    gap: 5rem;
+}
+
+.posts{
+    grid-area: posts;
+}
+
+.sideSection{
+    grid-area: side;
+}
+
+.blogPost{
+    width: 95%;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 10% 80%;
+    grid-template-rows: auto;
+    grid-template-areas: ". image"
+                         "date info"
+                         ". body";
+    column-gap: .25rem;
+    row-gap: 2rem;
+}
+
+.postImageContainer{
+    grid-area: image;
+}
+
+.postInfo{
+    grid-area: info;
+}
+
+.postDateContainer{
+    grid-area: date;
+}
+
+.postBody{
+    grid-area: body;
+}
+
+.postImageContainer img{
+    width: 100%;
+}
+
+.postTitle{
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+
+.postAuthor, .postTags{
+    font-size: .9rem;
+    font-weight: 500;
+    margin: .5rem 0;
+}
+
+.postBody{
+    font-size: 1.025rem;
+    line-height: 1.4rem;
+    color: #828282;
+}
+
+.postBody a{
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+    margin: .75rem 0;
+    background-color: var(--primary-green-color);
+}
+
+.postBody::after{
+    content: '';
+    display: block;
+    width: 100%;
+    margin: 1rem 0;
+    height: 1px;
+    background-color: #bdbbbb;
+}
+
+.postDate, .postMonth, .postYear{
+    width: 80%;
+    margin: 0 auto;
+    padding: .35rem;
+    background-color: #b6b3b3;
+    text-align: center;
+    font-weight: 700;
+    color: #504f4f;
+}
+
+.postDate{
+    margin-top: .75rem;
+}
+
+.postMonth{
+    background-color: var(--primary-green-color);
+    color: white;
+}
+
+.postYear{
+    background-color: #080220;
+    color: #fcfcfc;
+}
+
+.searchBox{
+    width: 100%;
+    background-color: #d4cfcf;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    margin-bottom: 4rem;
+}
+
+.searchBox input{
+    height: 100%;
+    width: 80%;
+    padding: 0 1rem;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.searchBox  input::placeholder{
+    font-size: 1.05rem;
+}
+
+.searchBox button{
+    background: none;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    height: 100%;
+    width: 20%;
+}
+
+.recentPosts{
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.recentPosts h4, .latestNews h4{
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.recentPosts a{
+    color: var(--primary-green-color);
+    display: block;
+    margin: 1rem 0;
+}
+
+.latestNews{
+    width: 100%;
+}
+
+.singleNews{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.singleNews img{
+    width: 33%;
+    border: 1px solid #bdbbbb;
+}
+
+.newsInfo{
+    width: 65%;
+}
+
+.newsInfo a{
+    color: black;
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+.newsInfo p{
+    font-size: .85rem;
+    padding-top: .5rem;
+}
+
+.pagination{
+    width: max-content;
+    margin: 1rem auto;
+}
+
+.pagination a{
+    display: inline-grid;
+    place-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: var(--primary-green-color);
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin: .3rem;
+    transition: all .4s ease;
+}
+
+.pagination a:hover{
+    background-color: #2f4604;
+}
