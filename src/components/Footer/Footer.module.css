@@ -20,16 +20,16 @@
     line-height: 1.4rem;
 }
 
-h3{
+.mainFooter h3{
     color: #b8b7b7;
     margin-bottom: 1rem;
 }
 
-p, a{
+.mainFooter p, .mainFooter a{
     color: #797878;
 }
 
-a:hover{
+.mainFooter a:hover{
     color: #b8b7b7;
 }
 

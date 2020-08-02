@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 const Information = () => {
   return (
     <main className={styles.infoSection}>
-      <h2>Softuvo Solutions - Success through digital innovation</h2>
+      <h2>Pataran - Success through digital innovation</h2>
       <div className={styles.sectionOne}>
         <p>
-          Softuvo brings you the best in IT services – be it IT consulting, web
+          Pataran brings you the best in IT services – be it IT consulting, web
           design &amp; development, digital marketing or web &amp; application
           development. We craft creative designs that catch eyes and bring you
           the high returns on investments. Don’t get surprised after seeing us

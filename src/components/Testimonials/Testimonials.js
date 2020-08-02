@@ -5,22 +5,22 @@ const Testimonials = () => {
   const [testimonies] = useState([
     {
       text:
-        "Softuvo helped us in setting up a new business in Poland with its amazing development process. It has helped us reach new heights of success.",
+        "Pataran helped us in setting up a new business in Poland with its amazing development process. It has helped us reach new heights of success.",
       tag: "Best for development process",
     },
     {
       text:
-        "The team at Softuvo makes sure that they leave no stone unturned while helping a client.",
+        "The team at Pataran makes sure that they leave no stone unturned while helping a client.",
       tag: "Praiseworthy and brilliant team",
     },
     {
       text:
-        "Softuvo's work ethics are greatest among all other competitors. It has world class solutions for any problem of yours.",
+        "Pataran work ethics are greatest among all other competitors. It has world class solutions for any problem of yours.",
       tag: "Best in the Industry!",
     },
     {
       text:
-        "Simply Awesome. The results my business has obtained after collaborating with Softuvo are beyond our expectations, a very dedicated team to work with.",
+        "Simply Awesome. The results my business has obtained after collaborating with Pataran are beyond our expectations, a very dedicated team to work with.",
       tag: "Performance Elevator",
     },
   ]);
@@ -63,7 +63,7 @@ const Testimonials = () => {
 
   return (
     <>
-    <h2>Testimonials</h2>
+    <h2 className={styles.testimonialsHeading}>Testimonials</h2>
     <div className={styles.testimonials}>
       <div className={styles.allTestimonies} style={{width: `${getWidth() * testimonies.length}px`, transform: `translateX(-${state.translate}px)`}}>
           {testimonies.map((testimony, index) => {
