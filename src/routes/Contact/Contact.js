@@ -64,15 +64,15 @@ const Contact = () => {
           </div>
           <h2>Address <span style={{color: "#060625"}}>Info</span></h2>
           <div className={styles.filler}></div>
-          <h4>Mohali Office</h4>
-          <p>E-261, Industrial Area,</p>
-          <p>Phase – 8B,Mohali</p>
+          <h4>Chandigarh Office</h4>
+          <p>SCO-168</p>
+          <p>Sector - 37C, Chandigarh</p>
           <p>
-            <strong>Mohali:</strong> 01724670301
+            <strong>Chandigarh:</strong> 7398548309
           </p>
           <p>
             <strong>Email:</strong>{" "}
-            <a href="mailto:info@softuvo.com">info@softuvo.com</a>
+            <a href="mailto:info@softuvo.com">pataran.technologies@gmail.com</a>
           </p>
         </div>
       </div>

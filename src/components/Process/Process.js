@@ -11,7 +11,7 @@ const Process = () => {
           <div className={styles.stepInfo}>
             <h3>SET PLANS!</h3>
             <p>
-              Softuvo believes in delivering out-of-the-box IT solutions that
+              Pataran believes in delivering out-of-the-box IT solutions that
               require brainstorming sessions. After getting briefed from you
               about your project, we start out with discovery sessions.
             </p>
@@ -28,7 +28,7 @@ const Process = () => {
           <div className={styles.stepInfo}>
             <h3>CREATIVE DESIGN!</h3>
             <p>
-              At Softuvo, we understand that behind every successful IT project,
+              At Pataran, we understand that behind every successful IT project,
               there is always a creative design. So, we do our best efforts to
               grab more eyeballs for your brand.
             </p>

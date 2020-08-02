@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <header className={styles.mainHeader}>
       <nav className={styles.mainNav}>
-        <Link className={styles.logo} to="/">Softuvo</Link>
+        <Link className={styles.logo} to="/">Pataran</Link>
         <ul className={styles.navLinks}>
           <li className={styles.navLink}>
             <NavLink to="/home">Home</NavLink>

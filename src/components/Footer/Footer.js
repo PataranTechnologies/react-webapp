@@ -13,7 +13,7 @@ const Footer = () => {
         <div className={styles.about}>
           <h3>About Us</h3>
           <p>
-            We are Softuvo Solutions, your launchpad to the online success. We
+            We are Pataran Technologies, your launchpad to the online success. We
             weave technology that can take your business to success levels.
             Technology runs through our nerves and we are a great fit for
             businesses demanding cutting-edge technology solutions.
@@ -45,13 +45,13 @@ const Footer = () => {
       </div>
       <div className={styles.sectionTwo}>
         <h3>Contacts</h3>
-        <p><LocationOnIcon style={{fontSize: 'medium', color:'#b8b7b7'}}/>&nbsp;&nbsp;E-261, Industrial Area, Phase - 8B, Mohali</p>
-        <p><PhoneIcon style={{fontSize: 'medium', color:'#b8b7b7'}}/>&nbsp;&nbsp;01724670301</p>
-        <p><MailIcon style={{fontSize: 'medium', color:'#b8b7b7'}}/>&nbsp;&nbsp;info@softuvo.com</p>
+        <p><LocationOnIcon style={{fontSize: 'medium', color:'#b8b7b7'}}/>&nbsp;&nbsp;SCO-168, Sector 37-C, Chandigarh</p>
+        <p><PhoneIcon style={{fontSize: 'medium', color:'#b8b7b7'}}/>&nbsp;&nbsp;7398548309</p>
+        <p><MailIcon style={{fontSize: 'medium', color:'#b8b7b7'}}/>&nbsp;&nbsp;pataran.technologies@gmail.com</p>
       </div>
     </div>
     <div className={styles.secondFooter}>
-    <p>Softuvo Solutions Private Limited &copy; 2020 | <Link to="/">Softuvo.com</Link></p>
+    <p>Pataran Technologies&copy; 2020 | <Link to="/">pataran.com</Link></p>
     </div>
     </>
   );

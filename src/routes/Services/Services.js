@@ -50,7 +50,7 @@ const Services = () => {
   return (
     <div className={styles.servicesSection}>
       <div className={styles.introToServices}>
-        <h1 className={styles.introTextOne}>You Choose Softuvo Solutions!</h1>
+        <h1 className={styles.introTextOne}>You Choose Pataran Technologies!</h1>
         <h2 className={styles.introTextTwo}>
           Your Online Success Will Choose You!
         </h2>

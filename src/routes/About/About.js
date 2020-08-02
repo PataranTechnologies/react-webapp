@@ -25,7 +25,7 @@ const About = () => {
     {
       heading: "We Operate On Time And On Budget!",
       body:
-        "Softuvo charges highly competitive pricing and deliver projects on time and budget of clients. Our prime concern is to deliver you the satisfaction through our IT expertise. We respect deadlines and stick to the ones!",
+        "Pataran charges highly competitive pricing and deliver projects on time and budget of clients. Our prime concern is to deliver you the satisfaction through our IT expertise. We respect deadlines and stick to the ones!",
       show: false,
     },
     {
@@ -63,8 +63,8 @@ const About = () => {
     <>
       <div className={styles.aboutContainer}>
         <div className={styles.heroContainer}>
-          <h1>About Softuvo - IT Giant</h1>
-          <p>Softuvo - The Other Name of Success!</p>
+          <h1>About Pataran - IT Giant</h1>
+          <p>Pataran - The Other Name of Success!</p>
         </div>
         <div className={styles.welcomeMessage}>
           <div className={styles.welcomeImage}>
@@ -77,12 +77,12 @@ const About = () => {
             <h3>
               Welcome to{" "}
               <span style={{ color: "var(--primary-green-color)" }}>
-                Softuvo
+                Pataran
               </span>
             </h3>
             <div></div>
             <p>
-              We are Softuvo Solutions, your launchpad to the online success. We
+              We are Pataran Technologies, your launchpad to the online success. We
               weave technology that can take your business to success levels.
               Technology runs through our nerves and we are a great fit for
               businesses demanding cutting-edge technology solutions. When you
@@ -111,7 +111,7 @@ const About = () => {
           </h2>
           <div></div>
           <p>
-            Softuvo not just fills up the numbers in our staff, but with the
+            Pataran not just fills up the numbers in our staff, but with the
             right talent, exclusively filtered to help you succeed in the online
             world. Our team of skilled developers, designers and social media
             specialists have a strong passion for what they do. We love them
@@ -131,7 +131,7 @@ const About = () => {
           </h2>
           <div></div>
           <p>
-            At Softuvo, we have clients across the continents, contributing to
+            At Pataran, we have clients across the continents, contributing to
             our rich portfolio. From the day of our evolution, we have never
             looked back and achieving soaring heights everyday in the web world
             with our creative work!
@@ -142,7 +142,7 @@ const About = () => {
             <h2>
               Why choose{" "}
               <span style={{ color: "var(--primary-green-color)" }}>
-                Softuvo
+                Pataran
               </span>{" "}
               as your IT partner?
             </h2>
