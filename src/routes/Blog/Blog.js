@@ -8,11 +8,6 @@ import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import { Link } from "react-router-dom";
 
 const Blog = () => {
-<<<<<<< HEAD
-    return (
-        <div>
-            Blogs
-=======
   const [posts] = useState([
     {
       image:
@@ -101,7 +96,6 @@ const Blog = () => {
             <Link to="/blog">3</Link>
             <ChevronRightIcon style={{verticalAlign: "middle", color: "var(--primary-green-color)"}} />
           </div>
->>>>>>> b2033f447a8d5b10dc57f8ab95eb2a77bea4b1ef
         </div>
         <div className={styles.sideSection}>
           <div className={styles.searchBox}>
